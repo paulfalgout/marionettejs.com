@@ -5,21 +5,23 @@ block content
     img(src="images/marionette_logo.png", alt="Marionette.js – A scalable and composite application architecture for Backbone.js", class= "primary-logo")
     a.button.button-primary(href = "#download")
       | Download&nbsp;
-      span= VERSION
-    a(href="https://github.com/marionettejs/backbone.marionette", target="_blank") Marionette.js on GitHub
-    .tagline
-      | The Backbone Framework
+      sup= VERSION
+    small
+      a(href="https://github.com/marionettejs/backbone.marionette", target="_blank") Marionette.js on GitHub
+  .ribbon
+    | The Backbone Framework
+
 
   main
     include ./sections/_social_header
     include ./sections/_about
     include ./sections/_download
     include ./sections/_code_section
-    include ./sections/_screen_casts
-    include ./sections/_videos
-    include ./sections/_books
-    include ./sections/_support
-    include ./sections/_stickers
-    include ./sections/_who_is_using
+    //include ./sections/_screen_casts
+    //include ./sections/_videos
+    //include ./sections/_books
+    //include ./sections/_support
+    //include ./sections/_stickers
+    //include ./sections/_who_is_using
 
-  include ./sections/_footer
+  //include ./sections/_footer

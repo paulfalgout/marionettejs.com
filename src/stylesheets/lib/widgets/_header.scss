@@ -1,0 +1,31 @@
+.masthead,
+.ribbon {
+  border-bottom: 1px solid #cbdce5;
+  padding: 2rem;
+}
+
+.masthead {
+  align-items: center;
+  background-color: $light-blue;
+  display: flex;
+  flex-direction: column;
+
+  > * {
+    margin-bottom: 2rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  img {
+    max-width: 177px;
+  }
+}
+
+.ribbon {
+  background-color: #edf3f6;
+  color: #818285;
+  text-align: center;
+  width: 100%;
+}
